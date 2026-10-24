@@ -1,0 +1,804 @@
+{
+  "categories": [
+    {
+      "id": "cat_fem_vestidos",
+      "name": "Vestidos & Macaquinhos",
+      "slug": "vestidos-macaquinhos",
+      "department": "Moda Feminina",
+      "description": "Vestidos florais, viscolinho, midi, canelados e macaquinhos de verão",
+      "ncm_default": "6204.42.00",
+      "icon": "Sparkles",
+      "active": true,
+      "created_at": "2026-10-15T10:00:00Z"
+    },
+    {
+      "id": "cat_fem_blusas",
+      "name": "Blusas, Croppeds & T-Shirts",
+      "slug": "blusas-croppeds-tshirts",
+      "department": "Moda Feminina",
+      "description": "Blusas caneladas, t-shirts 100% algodão e croppeds da moda",
+      "ncm_default": "6109.10.00",
+      "icon": "Shirt",
+      "active": true,
+      "created_at": "2026-10-15T10:05:00Z"
+    },
+    {
+      "id": "cat_inf_conjuntos",
+      "name": "Conjuntos Infantis",
+      "slug": "conjuntos-infantis",
+      "department": "Moda Infantil",
+      "description": "Conjuntos masculinos e femininos do tamanho 2 ao 14 com estampas lúdicas",
+      "ncm_default": "6103.42.00",
+      "icon": "Smile",
+      "active": true,
+      "created_at": "2026-10-15T10:10:00Z"
+    },
+    {
+      "id": "cat_inf_bebe",
+      "name": "Bebê & Primeiros Passos",
+      "slug": "bebe-primeiros-passos",
+      "department": "Moda Infantil",
+      "description": "Bodies, mijões, macacões antialérgicos e kits maternidade",
+      "ncm_default": "6111.20.00",
+      "icon": "Heart",
+      "active": true,
+      "created_at": "2026-10-15T10:15:00Z"
+    },
+    {
+      "id": "cat_combos",
+      "name": "Combos & Promoções 3 por R$ 100",
+      "slug": "combos-promocionais",
+      "department": "Promoções Especiais",
+      "description": "Ofertas relâmpago e combos promocionais de alta conversão",
+      "ncm_default": "6109.10.00",
+      "icon": "Zap",
+      "active": true,
+      "created_at": "2026-10-15T10:20:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_vestido_floral",
+      "sku": "SAG-VF-001",
+      "name": "Vestido Midi Floral Tropical com Lastex",
+      "description": "Confeccionado em viscose leve e fresca, busto em lastex que se ajusta perfeitamente ao corpo e manga princesa.",
+      "category_id": "cat_fem_vestidos",
+      "category_name": "Vestidos & Macaquinhos",
+      "brand": "SAGAS Brasil",
+      "cost_price": 38.5,
+      "sale_price": 89.9,
+      "promo_price": 79.9,
+      "stock_quantity": 48,
+      "min_stock": 10,
+      "unit": "UN",
+      "ncm": "6204.42.00",
+      "cfop": "5102",
+      "barcode_gtin": "7891234560012",
+      "weight_kg": 0.28,
+      "width_cm": 22,
+      "height_cm": 4,
+      "length_cm": 28,
+      "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=600&q=80",
+      "active": true,
+      "variations": [
+        {
+          "id": "var_vf_p",
+          "sku": "SAG-VF-001-P-AZ",
+          "size": "P",
+          "color": "Azul Floral",
+          "stock": 12,
+          "barcode_ean": "7891234560013"
+        },
+        {
+          "id": "var_vf_m",
+          "sku": "SAG-VF-001-M-AZ",
+          "size": "M",
+          "color": "Azul Floral",
+          "stock": 18,
+          "barcode_ean": "7891234560014"
+        },
+        {
+          "id": "var_vf_g",
+          "sku": "SAG-VF-001-G-AZ",
+          "size": "G",
+          "color": "Azul Floral",
+          "stock": 11,
+          "barcode_ean": "7891234560015"
+        },
+        {
+          "id": "var_vf_gg",
+          "sku": "SAG-VF-001-GG-AZ",
+          "size": "GG",
+          "color": "Azul Floral",
+          "stock": 7,
+          "barcode_ean": "7891234560016"
+        }
+      ],
+      "created_at": "2026-10-16T11:00:00Z",
+      "updated_at": "2026-10-23T12:00:00Z"
+    },
+    {
+      "id": "prod_conjunto_infantil_safari",
+      "sku": "SAG-CI-002",
+      "name": "Conjunto Infantil Safari Menino (Camiseta + Bermuda Moletom)",
+      "description": "Camiseta manga curta 100% algodão penteado estampa safari e bermuda em moletom sem felpa super confortável.",
+      "category_id": "cat_inf_conjuntos",
+      "category_name": "Conjuntos Infantis",
+      "brand": "SAGAS Kids",
+      "cost_price": 22,
+      "sale_price": 54.9,
+      "promo_price": 49.9,
+      "stock_quantity": 65,
+      "min_stock": 15,
+      "unit": "CJ",
+      "ncm": "6103.42.00",
+      "cfop": "5102",
+      "barcode_gtin": "7891234560029",
+      "weight_kg": 0.22,
+      "width_cm": 20,
+      "height_cm": 5,
+      "length_cm": 25,
+      "image_url": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=600&q=80",
+      "active": true,
+      "variations": [
+        {
+          "id": "var_ci_2",
+          "sku": "SAG-CI-002-T2",
+          "size": "Tam 2",
+          "color": "Verde Militar",
+          "stock": 15,
+          "barcode_ean": "7891234560020"
+        },
+        {
+          "id": "var_ci_4",
+          "sku": "SAG-CI-002-T4",
+          "size": "Tam 4",
+          "color": "Verde Militar",
+          "stock": 20,
+          "barcode_ean": "7891234560021"
+        },
+        {
+          "id": "var_ci_6",
+          "sku": "SAG-CI-002-T6",
+          "size": "Tam 6",
+          "color": "Verde Militar",
+          "stock": 18,
+          "barcode_ean": "7891234560022"
+        },
+        {
+          "id": "var_ci_8",
+          "sku": "SAG-CI-002-T8",
+          "size": "Tam 8",
+          "color": "Verde Militar",
+          "stock": 12,
+          "barcode_ean": "7891234560023"
+        }
+      ],
+      "created_at": "2026-10-16T11:20:00Z",
+      "updated_at": "2026-10-23T12:00:00Z"
+    },
+    {
+      "id": "prod_blusa_ribana_combo",
+      "sku": "SAG-BC-003",
+      "name": "Blusa Feminina Canelada Ribana Premium (Oferta Combo)",
+      "description": "Malha ribana canelada encorpada com toque macio e elastano. Peça curinga para o dia a dia e trabalho.",
+      "category_id": "cat_combos",
+      "category_name": "Combos & Promoções 3 por R$ 100",
+      "brand": "SAGAS Brasil",
+      "cost_price": 14.5,
+      "sale_price": 39.9,
+      "promo_price": 33.33,
+      "stock_quantity": 110,
+      "min_stock": 20,
+      "unit": "UN",
+      "ncm": "6109.10.00",
+      "cfop": "5102",
+      "barcode_gtin": "7891234560036",
+      "weight_kg": 0.16,
+      "width_cm": 18,
+      "height_cm": 3,
+      "length_cm": 22,
+      "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80",
+      "active": true,
+      "variations": [
+        {
+          "id": "var_bc_p_pt",
+          "sku": "SAG-BC-003-P-PT",
+          "size": "P",
+          "color": "Preto",
+          "stock": 30,
+          "barcode_ean": "7891234560031"
+        },
+        {
+          "id": "var_bc_m_bc",
+          "sku": "SAG-BC-003-M-BC",
+          "size": "M",
+          "color": "Branco Off",
+          "stock": 45,
+          "barcode_ean": "7891234560032"
+        },
+        {
+          "id": "var_bc_g_tr",
+          "sku": "SAG-BC-003-G-TR",
+          "size": "G",
+          "color": "Terracota",
+          "stock": 35,
+          "barcode_ean": "7891234560033"
+        }
+      ],
+      "created_at": "2026-10-16T11:40:00Z",
+      "updated_at": "2026-10-23T12:00:00Z"
+    },
+    {
+      "id": "prod_kit_body_bebe",
+      "sku": "SAG-KB-004",
+      "name": "Kit 3 Bodies Bebê Manga Curta Suedine 100% Algodão",
+      "description": "Tecido suedine egípcio ultra macio, gola envelope para vestir fácil e botões de pressão metálicos sem níquel.",
+      "category_id": "cat_inf_bebe",
+      "category_name": "Bebê & Primeiros Passos",
+      "brand": "SAGAS Baby",
+      "cost_price": 26,
+      "sale_price": 69.9,
+      "promo_price": 59.9,
+      "stock_quantity": 34,
+      "min_stock": 8,
+      "unit": "CJ",
+      "ncm": "6111.20.00",
+      "cfop": "5102",
+      "barcode_gtin": "7891234560043",
+      "weight_kg": 0.25,
+      "width_cm": 20,
+      "height_cm": 4,
+      "length_cm": 24,
+      "image_url": "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=600&q=80",
+      "active": true,
+      "variations": [
+        {
+          "id": "var_kb_rn",
+          "sku": "SAG-KB-004-RN",
+          "size": "RN",
+          "color": "Neutro Candy",
+          "stock": 8,
+          "barcode_ean": "7891234560041"
+        },
+        {
+          "id": "var_kb_p",
+          "sku": "SAG-KB-004-P",
+          "size": "P",
+          "color": "Neutro Candy",
+          "stock": 12,
+          "barcode_ean": "7891234560042"
+        },
+        {
+          "id": "var_kb_m",
+          "sku": "SAG-KB-004-M",
+          "size": "M",
+          "color": "Neutro Candy",
+          "stock": 14,
+          "barcode_ean": "7891234560043"
+        }
+      ],
+      "created_at": "2026-10-16T12:00:00Z",
+      "updated_at": "2026-10-23T12:00:00Z"
+    },
+    {
+      "id": "prod_macaquinho_viscolinho",
+      "sku": "SAG-MQ-005",
+      "name": "Macaquinho Viscolinho Botões e Faixa de Amarração",
+      "description": "Macaquinho feminino elegante e versátil, com botões frontais decorativos e bolsos laterais funcionais.",
+      "category_id": "cat_fem_vestidos",
+      "category_name": "Vestidos & Macaquinhos",
+      "brand": "SAGAS Brasil",
+      "cost_price": 34,
+      "sale_price": 89.9,
+      "stock_quantity": 25,
+      "min_stock": 6,
+      "unit": "UN",
+      "ncm": "6204.42.00",
+      "cfop": "5102",
+      "barcode_gtin": "7891234560050",
+      "weight_kg": 0.3,
+      "width_cm": 24,
+      "height_cm": 4,
+      "length_cm": 30,
+      "image_url": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80",
+      "active": true,
+      "variations": [
+        {
+          "id": "var_mq_p",
+          "sku": "SAG-MQ-005-P-BE",
+          "size": "P",
+          "color": "Bege Areia",
+          "stock": 6,
+          "barcode_ean": "7891234560051"
+        },
+        {
+          "id": "var_mq_m",
+          "sku": "SAG-MQ-005-M-BE",
+          "size": "M",
+          "color": "Bege Areia",
+          "stock": 10,
+          "barcode_ean": "7891234560052"
+        },
+        {
+          "id": "var_mq_g",
+          "sku": "SAG-MQ-005-G-BE",
+          "size": "G",
+          "color": "Bege Areia",
+          "stock": 9,
+          "barcode_ean": "7891234560053"
+        }
+      ],
+      "created_at": "2026-10-16T12:30:00Z",
+      "updated_at": "2026-10-23T12:00:00Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_01",
+      "doc_type": "CPF",
+      "doc_number": "284.912.408-11",
+      "name": "Camila Fernandes Silveira",
+      "email": "camila.fernandes@gmail.com",
+      "phone": "(11) 98455-1234",
+      "address_street": "Rua das Flores",
+      "address_number": "342",
+      "address_complement": "Apto 42",
+      "neighborhood": "Vila Mariana",
+      "city": "São Paulo",
+      "state": "SP",
+      "zip_code": "04040-001",
+      "total_orders": 4,
+      "total_spent": 428.5,
+      "created_at": "2026-09-12T14:20:00Z"
+    },
+    {
+      "id": "cust_02",
+      "doc_type": "CPF",
+      "doc_number": "391.048.291-04",
+      "name": "Juliana Costa Albuquerque",
+      "email": "ju.costa.albuquerque@hotmail.com",
+      "phone": "(21) 97120-8844",
+      "address_street": "Avenida Atlântica",
+      "address_number": "1850",
+      "address_complement": "Bloco B, 702",
+      "neighborhood": "Copacabana",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "zip_code": "22021-001",
+      "total_orders": 2,
+      "total_spent": 198.8,
+      "created_at": "2026-10-01T09:15:00Z"
+    },
+    {
+      "id": "cust_03",
+      "doc_type": "CPF",
+      "doc_number": "145.892.339-72",
+      "name": "Mariana Duarte Souza",
+      "email": "mariana.duarte@outlook.com",
+      "phone": "(31) 99872-4411",
+      "address_street": "Rua Rio Grande do Sul",
+      "address_number": "710",
+      "neighborhood": "Santo Agostinho",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "zip_code": "30170-111",
+      "total_orders": 1,
+      "total_spent": 89.9,
+      "created_at": "2026-10-18T16:40:00Z"
+    },
+    {
+      "id": "cust_04",
+      "doc_type": "CNPJ",
+      "doc_number": "41.289.441/0001-90",
+      "name": "Boutique Kids & Teen Moda Ltda",
+      "fantasy_name": "Boutique Pequenos Passos",
+      "email": "compras@boutiquekids.com.br",
+      "phone": "(41) 3344-9988",
+      "state_registration": "908.411.223.001",
+      "address_street": "Rua XV de Novembro",
+      "address_number": "1240",
+      "neighborhood": "Centro",
+      "city": "Curitiba",
+      "state": "PR",
+      "zip_code": "80020-310",
+      "total_orders": 3,
+      "total_spent": 2450,
+      "created_at": "2026-08-20T11:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1041",
+      "order_number": "SAG-2026-1041",
+      "channel": "SAGAS Brasil",
+      "customer_id": "cust_01",
+      "customer": {
+        "name": "Camila Fernandes Silveira",
+        "doc_number": "284.912.408-11",
+        "email": "camila.fernandes@gmail.com",
+        "phone": "(11) 98455-1234",
+        "zip_code": "04040-001",
+        "address": "Rua das Flores, 342 Apto 42 - Vila Mariana",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "items": [
+        {
+          "id": "item_1041_1",
+          "product_id": "prod_vestido_floral",
+          "sku": "SAG-VF-001-M-AZ",
+          "name": "Vestido Midi Floral Tropical com Lastex",
+          "variation": "Tamanho M / Azul Floral",
+          "quantity": 1,
+          "unit_price": 79.9,
+          "total_price": 79.9,
+          "ncm": "6204.42.00",
+          "cfop": "5102"
+        },
+        {
+          "id": "item_1041_2",
+          "product_id": "prod_conjunto_infantil_safari",
+          "sku": "SAG-CI-002-T4",
+          "name": "Conjunto Infantil Safari Menino",
+          "variation": "Tam 4 / Verde Militar",
+          "quantity": 1,
+          "unit_price": 49.9,
+          "total_price": 49.9,
+          "ncm": "6103.42.00",
+          "cfop": "5102"
+        }
+      ],
+      "subtotal": 129.8,
+      "discount": 10,
+      "shipping_cost": 14.5,
+      "total": 134.3,
+      "payment_method": "PIX",
+      "payment_status": "Aprovado",
+      "status": "labeled",
+      "shipping_carrier": "Correios SEDEX",
+      "tracking_code": "SL849102847BR",
+      "nfe_number": "000014",
+      "nfe_key": "35261034892109000145550010000141018374928172",
+      "nfe_id": "nfe_1041",
+      "label_id": "lbl_1041",
+      "created_at": "2026-10-23T10:14:00Z",
+      "updated_at": "2026-10-23T10:20:00Z"
+    },
+    {
+      "id": "ord_1042",
+      "order_number": "SAG-2026-1042",
+      "channel": "SAGAS Brasil",
+      "customer_id": "cust_02",
+      "customer": {
+        "name": "Juliana Costa Albuquerque",
+        "doc_number": "391.048.291-04",
+        "email": "ju.costa.albuquerque@hotmail.com",
+        "phone": "(21) 97120-8844",
+        "zip_code": "22021-001",
+        "address": "Avenida Atlântica, 1850 Bloco B 702 - Copacabana",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "items": [
+        {
+          "id": "item_1042_1",
+          "product_id": "prod_macaquinho_viscolinho",
+          "sku": "SAG-MQ-005-M-BE",
+          "name": "Macaquinho Viscolinho Botões e Faixa",
+          "variation": "Tamanho M / Bege Areia",
+          "quantity": 1,
+          "unit_price": 89.9,
+          "total_price": 89.9,
+          "ncm": "6204.42.00",
+          "cfop": "6102"
+        }
+      ],
+      "subtotal": 89.9,
+      "discount": 0,
+      "shipping_cost": 19.9,
+      "total": 109.8,
+      "payment_method": "Cartão de Crédito",
+      "payment_status": "Aprovado",
+      "status": "labeled",
+      "shipping_carrier": "Jadlog .Package",
+      "created_at": "2026-10-23T14:30:00Z",
+      "updated_at": "2026-10-23T23:29:00.636Z",
+      "nfe_number": "000015",
+      "nfe_key": "35261034892109000145550010000000151131513431",
+      "nfe_id": "nfe_1792798140636_cbq7j",
+      "tracking_code": "JAD963283551",
+      "label_id": "lbl_1792798140636_891ew"
+    },
+    {
+      "id": "ord_1043",
+      "order_number": "MKP-SHOPEE-8821",
+      "channel": "Shopee",
+      "customer_id": "cust_03",
+      "customer": {
+        "name": "Mariana Duarte Souza",
+        "doc_number": "145.892.339-72",
+        "email": "mariana.duarte@outlook.com",
+        "phone": "(31) 99872-4411",
+        "zip_code": "30170-111",
+        "address": "Rua Rio Grande do Sul, 710 - Santo Agostinho",
+        "city": "Belo Horizonte",
+        "state": "MG"
+      },
+      "items": [
+        {
+          "id": "item_1043_1",
+          "product_id": "prod_kit_body_bebe",
+          "sku": "SAG-KB-004-M",
+          "name": "Kit 3 Bodies Bebê Manga Curta Suedine",
+          "variation": "Tamanho M / Neutro Candy",
+          "quantity": 1,
+          "unit_price": 59.9,
+          "total_price": 59.9,
+          "ncm": "6111.20.00",
+          "cfop": "6102"
+        }
+      ],
+      "subtotal": 59.9,
+      "discount": 0,
+      "shipping_cost": 16,
+      "total": 75.9,
+      "payment_method": "PIX",
+      "payment_status": "Pendente",
+      "status": "pending",
+      "shipping_carrier": "Correios PAC",
+      "created_at": "2026-10-23T15:45:00Z",
+      "updated_at": "2026-10-23T15:45:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "nfe_1792798140636_cbq7j",
+      "order_id": "ord_1042",
+      "order_number": "SAG-2026-1042",
+      "nfe_number": "000015",
+      "series": "1",
+      "access_key": "35261034892109000145550010000000151131513431",
+      "issue_date": "2026-10-23T23:29:00.636Z",
+      "status": "AUTORIZADA",
+      "emitter": {
+        "name": "SAGAS BRASIL MODA FEMININA & INFANTIL LTDA",
+        "trade_name": "SAGAS BRASIL",
+        "cnpj": "34.892.109/0001-45",
+        "ie": "109.842.311.110",
+        "address": "Rua José Paulino, 850 - Bom Retiro",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "01120-000",
+        "tax_regime": "Simples Nacional (CRT 1)"
+      },
+      "recipient": {
+        "name": "Juliana Costa Albuquerque",
+        "cpf_cnpj": "391.048.291-04",
+        "email": "ju.costa.albuquerque@hotmail.com",
+        "phone": "(21) 97120-8844",
+        "address": "Avenida Atlântica, 1850 Bloco B 702 - Copacabana",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "zip": "22021-001"
+      },
+      "totals": {
+        "vProd": 89.9,
+        "vFrete": 19.9,
+        "vDesc": 0,
+        "vNF": 109.8,
+        "vICMS": 4.39,
+        "vPIS": 0,
+        "vCOFINS": 0
+      },
+      "items": [
+        {
+          "item": 1,
+          "sku": "SAG-MQ-005-M-BE",
+          "description": "Macaquinho Viscolinho Botões e Faixa - Tamanho M / Bege Areia",
+          "ncm": "6204.42.00",
+          "cfop": "6102",
+          "uCom": "UN",
+          "qCom": 1,
+          "vUnCom": 89.9,
+          "vProd": 89.9
+        }
+      ],
+      "xml_string": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<nfeProc versao=\"4.00\" xmlns=\"http://www.portalfiscal.inf.br/nfe\">\n  <NFe>\n    <infNFe Id=\"NFe35261034892109000145550010000000151131513431\" versao=\"4.00\">\n      <ide>\n        <cUF>35</cUF>\n        <cNF>13151343</cNF>\n        <natOp>VENDA DE MERCADORIA</natOp>\n        <mod>55</mod>\n        <serie>1</serie>\n        <nNF>15</nNF>\n        <dhEmi>2026-10-23T23:29:00.636Z</dhEmi>\n        <tpNF>1</tpNF>\n        <idDest>1</idDest>\n        <cMunFG>3550308</cMunFG>\n        <tpImp>1</tpImp>\n        <tpEmis>1</tpEmis>\n        <cDV>1</cDV>\n        <tpAmb>1</tpAmb>\n        <finNFe>1</finNFe>\n        <indFinal>1</indFinal>\n        <indPres>2</indPres>\n        <procEmi>0</procEmi>\n        <verProc>OmniSync-ERP-v2.6</verProc>\n      </ide>\n      <emit>\n        <CNPJ>34892109000145</CNPJ>\n        <xNome>SAGAS BRASIL MODA FEMININA & INFANTIL LTDA</xNome>\n        <xFant>SAGAS BRASIL</xFant>\n        <enderEmit>\n          <xLgr>Rua José Paulino</xLgr>\n          <nro>850</nro>\n          <xBairro>Bom Retiro</xBairro>\n          <cMun>3550308</cMun>\n          <xMun>São Paulo</xMun>\n          <UF>SP</UF>\n          <CEP>01120000</CEP>\n          <cPais>1058</cPais>\n          <xPais>Brasil</xPais>\n        </enderEmit>\n        <IE>109842311110</IE>\n        <CRT>1</CRT>\n      </emit>\n      <dest>\n        <CPF>39104829104</CPF>\n        <xNome>Juliana Costa Albuquerque</xNome>\n        <enderDest>\n          <xLgr>Avenida Atlântica, 1850 Bloco B 702 - Copacabana</xLgr>\n          <nro>S/N</nro>\n          <xBairro>Centro</xBairro>\n          <xMun>Rio de Janeiro</xMun>\n          <UF>RJ</UF>\n          <CEP>22021001</CEP>\n          <cPais>1058</cPais>\n          <xPais>Brasil</xPais>\n        </enderDest>\n        <indIEDest>9</indIEDest>\n        <email>ju.costa.albuquerque@hotmail.com</email>\n      </dest>\n      <det>\n        <det nItem=\"1\">\n          <prod>\n            <cProd>SAG-MQ-005-M-BE</cProd>\n            <cEAN>SEM GTIN</cEAN>\n            <xProd>Macaquinho Viscolinho Botões e Faixa - Tamanho M / Bege Areia</xProd>\n            <NCM>62044200</NCM>\n            <CFOP>6102</CFOP>\n            <uCom>UN</uCom>\n            <qCom>1.0000</qCom>\n            <vUnCom>89.9000</vUnCom>\n            <vProd>89.90</vProd>\n            <cEANTrib>SEM GTIN</cEANTrib>\n            <uTrib>UN</uTrib>\n            <qTrib>1.0000</qTrib>\n            <vUnTrib>89.9000</vUnTrib>\n            <indTot>1</indTot>\n          </prod>\n          <imposto>\n            <ICMS>\n              <ICMSSN102>\n                <orig>0</orig>\n                <CSOSN>102</CSOSN>\n              </ICMSSN102>\n            </ICMS>\n          </imposto>\n        </det>\n      </det>\n      <total>\n        <ICMSTot>\n          <vBC>0.00</vBC>\n          <vICMS>4.39</vICMS>\n          <vProd>89.90</vProd>\n          <vFrete>19.90</vFrete>\n          <vDesc>0.00</vDesc>\n          <vNF>109.80</vNF>\n        </ICMSTot>\n      </total>\n      <transp>\n        <modFrete>0</modFrete>\n        <transporta>\n          <xNome>Jadlog .Package</xNome>\n        </transporta>\n      </transp>\n      <infAdic>\n        <infCpl>DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL. NÃO GERA DIREITO A CRÉDITO FISCAL DE IPI. Pedido de Origem: SAG-2026-1042 (SAGAS Brasil).</infCpl>\n      </infAdic>\n    </infNFe>\n  </NFe>\n  <protNFe versao=\"4.00\">\n    <infProt>\n      <tpAmb>1</tpAmb>\n      <verAplic>SP_NFE_PL_009_V400</verAplic>\n      <chNFe>35261034892109000145550010000000151131513431</chNFe>\n      <dhRecbto>2026-10-23T23:29:00.636Z</dhRecbto>\n      <nProt>13526003506015</nProt>\n      <digVal>zF9+D9yQvK3K9J2bLz=</digVal>\n      <cStat>100</cStat>\n      <xMotivo>Autorizado o uso da NF-e</xMotivo>\n    </infProt>\n  </protNFe>\n</nfeProc>"
+    },
+    {
+      "id": "nfe_1041",
+      "order_id": "ord_1041",
+      "order_number": "SAG-2026-1041",
+      "nfe_number": "000014",
+      "series": "1",
+      "access_key": "35261034892109000145550010000000141286674709",
+      "issue_date": "2026-10-23T23:28:51.477Z",
+      "status": "AUTORIZADA",
+      "emitter": {
+        "name": "SAGAS BRASIL MODA FEMININA & INFANTIL LTDA",
+        "trade_name": "SAGAS BRASIL",
+        "cnpj": "34.892.109/0001-45",
+        "ie": "109.842.311.110",
+        "address": "Rua José Paulino, 850 - Bom Retiro",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "01120-000",
+        "tax_regime": "Simples Nacional (CRT 1)"
+      },
+      "recipient": {
+        "name": "Camila Fernandes Silveira",
+        "cpf_cnpj": "284.912.408-11",
+        "email": "camila.fernandes@gmail.com",
+        "phone": "(11) 98455-1234",
+        "address": "Rua das Flores, 342 Apto 42 - Vila Mariana",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "04040-001"
+      },
+      "totals": {
+        "vProd": 129.8,
+        "vFrete": 14.5,
+        "vDesc": 10,
+        "vNF": 134.3,
+        "vICMS": 5.37,
+        "vPIS": 0,
+        "vCOFINS": 0
+      },
+      "items": [
+        {
+          "item": 1,
+          "sku": "SAG-VF-001-M-AZ",
+          "description": "Vestido Midi Floral Tropical com Lastex - Tamanho M / Azul Floral",
+          "ncm": "6204.42.00",
+          "cfop": "5102",
+          "uCom": "UN",
+          "qCom": 1,
+          "vUnCom": 79.9,
+          "vProd": 79.9
+        },
+        {
+          "item": 2,
+          "sku": "SAG-CI-002-T4",
+          "description": "Conjunto Infantil Safari Menino - Tam 4 / Verde Militar",
+          "ncm": "6103.42.00",
+          "cfop": "5102",
+          "uCom": "UN",
+          "qCom": 1,
+          "vUnCom": 49.9,
+          "vProd": 49.9
+        }
+      ],
+      "xml_string": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<nfeProc versao=\"4.00\" xmlns=\"http://www.portalfiscal.inf.br/nfe\">\n  <NFe>\n    <infNFe Id=\"NFe35261034892109000145550010000000141286674709\" versao=\"4.00\">\n      <ide>\n        <cUF>35</cUF>\n        <cNF>28667470</cNF>\n        <natOp>VENDA DE MERCADORIA</natOp>\n        <mod>55</mod>\n        <serie>1</serie>\n        <nNF>14</nNF>\n        <dhEmi>2026-10-23T23:28:51.477Z</dhEmi>\n        <tpNF>1</tpNF>\n        <idDest>1</idDest>\n        <cMunFG>3550308</cMunFG>\n        <tpImp>1</tpImp>\n        <tpEmis>1</tpEmis>\n        <cDV>9</cDV>\n        <tpAmb>1</tpAmb>\n        <finNFe>1</finNFe>\n        <indFinal>1</indFinal>\n        <indPres>2</indPres>\n        <procEmi>0</procEmi>\n        <verProc>OmniSync-ERP-v2.6</verProc>\n      </ide>\n      <emit>\n        <CNPJ>34892109000145</CNPJ>\n        <xNome>SAGAS BRASIL MODA FEMININA & INFANTIL LTDA</xNome>\n        <xFant>SAGAS BRASIL</xFant>\n        <enderEmit>\n          <xLgr>Rua José Paulino</xLgr>\n          <nro>850</nro>\n          <xBairro>Bom Retiro</xBairro>\n          <cMun>3550308</cMun>\n          <xMun>São Paulo</xMun>\n          <UF>SP</UF>\n          <CEP>01120000</CEP>\n          <cPais>1058</cPais>\n          <xPais>Brasil</xPais>\n        </enderEmit>\n        <IE>109842311110</IE>\n        <CRT>1</CRT>\n      </emit>\n      <dest>\n        <CPF>28491240811</CPF>\n        <xNome>Camila Fernandes Silveira</xNome>\n        <enderDest>\n          <xLgr>Rua das Flores, 342 Apto 42 - Vila Mariana</xLgr>\n          <nro>S/N</nro>\n          <xBairro>Centro</xBairro>\n          <xMun>São Paulo</xMun>\n          <UF>SP</UF>\n          <CEP>04040001</CEP>\n          <cPais>1058</cPais>\n          <xPais>Brasil</xPais>\n        </enderDest>\n        <indIEDest>9</indIEDest>\n        <email>camila.fernandes@gmail.com</email>\n      </dest>\n      <det>\n        <det nItem=\"1\">\n          <prod>\n            <cProd>SAG-VF-001-M-AZ</cProd>\n            <cEAN>SEM GTIN</cEAN>\n            <xProd>Vestido Midi Floral Tropical com Lastex - Tamanho M / Azul Floral</xProd>\n            <NCM>62044200</NCM>\n            <CFOP>5102</CFOP>\n            <uCom>UN</uCom>\n            <qCom>1.0000</qCom>\n            <vUnCom>79.9000</vUnCom>\n            <vProd>79.90</vProd>\n            <cEANTrib>SEM GTIN</cEANTrib>\n            <uTrib>UN</uTrib>\n            <qTrib>1.0000</qTrib>\n            <vUnTrib>79.9000</vUnTrib>\n            <indTot>1</indTot>\n          </prod>\n          <imposto>\n            <ICMS>\n              <ICMSSN102>\n                <orig>0</orig>\n                <CSOSN>102</CSOSN>\n              </ICMSSN102>\n            </ICMS>\n          </imposto>\n        </det>\n        <det nItem=\"2\">\n          <prod>\n            <cProd>SAG-CI-002-T4</cProd>\n            <cEAN>SEM GTIN</cEAN>\n            <xProd>Conjunto Infantil Safari Menino - Tam 4 / Verde Militar</xProd>\n            <NCM>61034200</NCM>\n            <CFOP>5102</CFOP>\n            <uCom>UN</uCom>\n            <qCom>1.0000</qCom>\n            <vUnCom>49.9000</vUnCom>\n            <vProd>49.90</vProd>\n            <cEANTrib>SEM GTIN</cEANTrib>\n            <uTrib>UN</uTrib>\n            <qTrib>1.0000</qTrib>\n            <vUnTrib>49.9000</vUnTrib>\n            <indTot>1</indTot>\n          </prod>\n          <imposto>\n            <ICMS>\n              <ICMSSN102>\n                <orig>0</orig>\n                <CSOSN>102</CSOSN>\n              </ICMSSN102>\n            </ICMS>\n          </imposto>\n        </det>\n      </det>\n      <total>\n        <ICMSTot>\n          <vBC>0.00</vBC>\n          <vICMS>5.37</vICMS>\n          <vProd>129.80</vProd>\n          <vFrete>14.50</vFrete>\n          <vDesc>10.00</vDesc>\n          <vNF>134.30</vNF>\n        </ICMSTot>\n      </total>\n      <transp>\n        <modFrete>0</modFrete>\n        <transporta>\n          <xNome>Correios SEDEX</xNome>\n        </transporta>\n      </transp>\n      <infAdic>\n        <infCpl>DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL. NÃO GERA DIREITO A CRÉDITO FISCAL DE IPI. Pedido de Origem: SAG-2026-1041 (SAGAS Brasil).</infCpl>\n      </infAdic>\n    </infNFe>\n  </NFe>\n  <protNFe versao=\"4.00\">\n    <infProt>\n      <tpAmb>1</tpAmb>\n      <verAplic>SP_NFE_PL_009_V400</verAplic>\n      <chNFe>35261034892109000145550010000000141286674709</chNFe>\n      <dhRecbto>2026-10-23T23:28:51.477Z</dhRecbto>\n      <nProt>13526007290364</nProt>\n      <digVal>zF9+D9yQvK3K9J2bLz=</digVal>\n      <cStat>100</cStat>\n      <xMotivo>Autorizado o uso da NF-e</xMotivo>\n    </infProt>\n  </protNFe>\n</nfeProc>"
+    }
+  ],
+  "labels": [
+    {
+      "id": "lbl_1792798140636_891ew",
+      "order_id": "ord_1042",
+      "order_number": "SAG-2026-1042",
+      "tracking_code": "JAD963283551",
+      "carrier": "Jadlog .Package",
+      "service_type": "PAC CONTRATO",
+      "status": "PENDENTE",
+      "sender": {
+        "name": "SAGAS BRASIL",
+        "company": "SAGAS BRASIL MODA FEMININA & INFANTIL LTDA",
+        "address": "Rua José Paulino, 850 - Bom Retiro",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "01120-000"
+      },
+      "recipient": {
+        "name": "Juliana Costa Albuquerque",
+        "address": "Avenida Atlântica, 1850 Bloco B 702 - Copacabana",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "zip": "22021-001",
+        "phone": "(21) 97120-8844"
+      },
+      "package": {
+        "weight_kg": 0.43,
+        "format": "Pacote / Caixa",
+        "length_cm": 26,
+        "width_cm": 20,
+        "height_cm": 8,
+        "items_summary": "1x Macaquinho Viscolinho Botões e Faixa",
+        "declared_value": 109.8,
+        "nfe_number": "000015",
+        "nfe_key": "35261034892109000145550010000000151131513431"
+      },
+      "barcode_128": "JAD963283551",
+      "dispatch_date": "2026-10-23"
+    },
+    {
+      "id": "lbl_1041",
+      "order_id": "ord_1041",
+      "order_number": "SAG-2026-1041",
+      "tracking_code": "SL849102847BR",
+      "carrier": "Correios SEDEX",
+      "service_type": "SEDEX CONTRATO",
+      "status": "PENDENTE",
+      "sender": {
+        "name": "SAGAS BRASIL",
+        "company": "SAGAS BRASIL MODA FEMININA & INFANTIL LTDA",
+        "address": "Rua José Paulino, 850 - Bom Retiro",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "01120-000"
+      },
+      "recipient": {
+        "name": "Camila Fernandes Silveira",
+        "address": "Rua das Flores, 342 Apto 42 - Vila Mariana",
+        "city": "São Paulo",
+        "state": "SP",
+        "zip": "04040-001",
+        "phone": "(11) 98455-1234"
+      },
+      "package": {
+        "weight_kg": 0.71,
+        "format": "Pacote / Caixa",
+        "length_cm": 26,
+        "width_cm": 20,
+        "height_cm": 8,
+        "items_summary": "1x Vestido Midi Floral Tropical com Lastex, 1x Conjunto Infantil Safari Menino",
+        "declared_value": 134.3,
+        "nfe_number": "000014",
+        "nfe_key": "35261034892109000145550010000000141286674709"
+      },
+      "barcode_128": "SL849102847BR",
+      "dispatch_date": "2026-10-23"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1792798140636_oels",
+      "timestamp": "2026-10-23T23:29:00.636Z",
+      "channel": "OmniSync Logística",
+      "event": "ETIQUETA_GERADA",
+      "status": "SUCCESS",
+      "details": "Etiqueta Jadlog .Package gerada com código de rastreio JAD963283551"
+    },
+    {
+      "id": "log_1792798140636_b54p",
+      "timestamp": "2026-10-23T23:29:00.636Z",
+      "channel": "OmniSync Fiscal",
+      "event": "NFE_AUTORIZADA",
+      "status": "SUCCESS",
+      "details": "NF-e nº 000015 autorizada pela SEFAZ (Chave: 352610348921090...)"
+    },
+    {
+      "id": "log_1792798140636_5xx3",
+      "timestamp": "2026-10-23T23:29:00.636Z",
+      "channel": "OmniSync ERP",
+      "event": "ESTOQUE_BAIXADO",
+      "status": "SUCCESS",
+      "details": "Estoque baixado com sucesso para os itens do pedido SAG-2026-1042"
+    },
+    {
+      "id": "log_01",
+      "timestamp": "2026-10-23T10:15:00Z",
+      "channel": "SAGAS Brasil",
+      "event": "PEDIDO_RECEBIDO",
+      "status": "SUCCESS",
+      "details": "Pedido SAG-2026-1041 recebido via webhook da Loja Virtual SAGAS Brasil"
+    },
+    {
+      "id": "log_02",
+      "timestamp": "2026-10-23T10:16:30Z",
+      "channel": "OmniSync ERP",
+      "event": "NFE_EMITIDA_AUTO",
+      "status": "SUCCESS",
+      "details": "NF-e 000014 gerada e autorizada automaticamente pela SEFAZ SP"
+    },
+    {
+      "id": "log_03",
+      "timestamp": "2026-10-23T10:17:00Z",
+      "channel": "OmniSync Logística",
+      "event": "ETIQUETA_CORREIOS",
+      "status": "SUCCESS",
+      "details": "Etiqueta Correios SEDEX gerada com rastreio SL849102847BR"
+    }
+  ],
+  "nextNfeNumber": 16
+}

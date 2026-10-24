@@ -1,0 +1,6 @@
+{
+  "name": "OmniSync Hub & E-Commerce DB - Gestão, NF-e & Etiquetas",
+  "description": "Banco de dados centralizado e hub ERP para SAGAS Brasil e marketplaces: gestão integrada de produtos, clientes, pedidos e categorias, emissão automática de NF-e e geração de etiquetas de envio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

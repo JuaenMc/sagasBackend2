@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Estilos específicos para impressão de DANFE e Etiquetas */
+  @media print {
+    body {
+      background: white !important;
+      color: black !important;
+    }
+    .no-print {
+      display: none !important;
+    }
+    .print-only {
+      display: block !important;
+    }
+    .print-danfe {
+      width: 100% !important;
+      max-width: 210mm !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+      font-size: 11px !important;
+    }
+    .print-label {
+      width: 100mm !important;
+      height: 150mm !important;
+      margin: 0 auto !important;
+      padding: 5mm !important;
+      page-break-after: always;
+    }
+  }
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.5);
+}
